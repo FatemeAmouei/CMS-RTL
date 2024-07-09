@@ -1,0 +1,4 @@
+.CMmodal__container.dark{
+    background-color: var(--dark-bg-color);
+    color: var(--white);
+}

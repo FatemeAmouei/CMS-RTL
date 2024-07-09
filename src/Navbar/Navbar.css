@@ -1,0 +1,93 @@
+.navbar-content{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar-content.dark {
+    background-color: var(--dark-bg-color);
+    color: var(--white);
+}
+
+.navbar-right{
+    display: flex;
+    width: 50%;
+}
+
+.profile-img{
+    margin-top: 1rem;
+    margin-right: 10rem;
+    width: 60px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.profile-info{
+    margin-top: 2rem;
+    padding-top: 1rem;
+    margin: 1.1rem;
+    font-size: 1.4rem;
+    line-height: 1.2rem;
+}
+
+.profile-info__title{
+    font-weight: bold;
+    color: var(--black);
+}
+
+.profile-info__title.dark{
+    color: var(--white);
+}
+
+.profile-info__subtitle{
+    color: var(--Primary-color);
+}
+
+.nabvar-left{
+  width: 60%;  
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+}
+
+ .navbar-left__btn{
+    width: 45px;
+    margin-left: 0.5rem;
+    margin-right: 25rem;
+}
+
+.navbar-left__btn.dark{
+    color: var(--white);
+    border: 1px solid var(dark-blue-color);
+}
+
+.navbar-icons{
+    font-size: 1.6rem;
+    color: var(--Primary-color);
+}
+
+.navbar-icons.dark{
+    color: var(--white);
+}
+
+.navlink-icon{
+    border: 1px solid var(--Primary-color);
+    padding: 10px;
+    font-size: 3.5rem;
+    border-radius: 0.5rem;
+}
+
+.navlink-icon.dark{
+    border: 1px solid var(dark-blue-color);
+}
+
+.navlink-login__btn:hover{
+    background-color: var(--Primary-color);
+    border-radius: 0.5rem;
+}
+
+.navlink-login__btn:hover .navbar-icons{
+    color: var(--white);
+}
+
+.navbar-left__btn:hover .navbar-icons{
+    color: var(--white);
+}

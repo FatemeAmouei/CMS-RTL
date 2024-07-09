@@ -1,0 +1,24 @@
+
+*{
+margin:0;
+padding:0;
+text-decoration:none;
+list-style:none;
+outline:none;
+border:none;
+direction:rtl;
+
+--Primary-color: #6385e4;
+--Secondary-color: #4940a3;
+--bg-color: #eeeeee;
+--black: #4d4d4d;
+--white:#fff;
+--dark-bg-color:#484848;
+--dark-blue-color:#0204a4;
+}
+
+html{
+    font-size: 75%;
+    background-color: var(--bg-color);
+    box-sizing: border-box;
+}

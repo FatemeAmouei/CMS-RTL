@@ -1,0 +1,25 @@
+.delete-container{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.delete-modal__body{
+    text-align: center;
+}
+
+.delete-modal__footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+.delete-modal__btn{
+    width: 10rem;
+    height: 3rem;
+}
+
+.delete-modal__body.dark{
+    background-color: var(--dark-bg-color);
+    color: var(--white);
+}

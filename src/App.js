@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import '../src/CSS/reset.css';
+import '../src/CSS/style-1.css';
+import { Routes, Route, useRoutes } from "react-router-dom";
+import NavbarRTL from './Navbar/Navbar';
+import Sidebar from './Sidebar/Sidebar';
+import routes from './routes';
+import { ThemeProvider } from './Context/ThemeContext';
 
 function App() {
+  const router = useRoutes(routes);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider>
+      <Sidebar />
+      <div className='main'>
+        <NavbarRTL />
+        {router} 
+      </div>
+    </ThemeProvider>
   );
 }
 

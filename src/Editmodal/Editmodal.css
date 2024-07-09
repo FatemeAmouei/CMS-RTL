@@ -1,0 +1,60 @@
+.edit-product__container{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.edit-products__title{
+    width: 100%;
+    margin: 1.5rem 0 0 0;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.3rem;
+    border-bottom: var(--white);
+    margin-bottom: 1rem;    
+}
+
+
+.edit-product__form{
+    text-align: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.editInput-group{
+    padding: 0.8rem;
+    border: none;
+    background-color: var(--bg-color);
+    margin: 0.8rem 0.8rem 0 0.8rem ;
+    border-radius: 0.5rem;
+}
+
+.editForm-input{
+    background-color: transparent;
+    width: 90%;
+    padding-right: 1rem;
+}
+
+.edit-submit__btn{
+    height: 3rem;
+    width: 100%;
+}
+
+.edit-product__container.dark,
+.edit-products__header.dark,
+.edit-products__body.dark,
+.modal-btn.dark{
+    background-color: var(--dark-bg-color);
+    color: var(--white);
+}
+
+.user-table__btn.dark,
+.editForm-input.dark,
+.editForm-input.dark::placeholder{
+    color: var(--white);
+}
+
+.editInput-group.dark{
+    background-color: var(--dark-bg-color);
+    border-bottom: 0.5px dotted var(--dark-blue-color);
+}

@@ -1,0 +1,75 @@
+.users{
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.user-title{
+    font-weight: bold;
+    padding: 1.5rem 3rem;
+    font-size: 2rem;
+}
+
+.user-container{
+    width: 96%;
+    background-color: var(--white);
+    border-radius: 2rem;
+    padding: 1.5rem;
+    margin: 2rem ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.user-table{
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.user-table thead th {
+    border-bottom: 1px solid var(--Primary-color);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.user-table tbody tr {
+    border-bottom: var(--white);
+}
+
+.user-table__btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-table__btn{
+    width: 6rem;
+    height: 2.8rem;
+}
+
+.users.dark{
+    background-color: var(--dark-bg-color);
+    color: white;
+}
+
+.user-container.dark{
+    background-color: var(--dark-bg-color);
+    color: white;
+    box-shadow: 0 4px 8px var(--dark-blue-color);
+}
+
+.user-table.dark{
+    background-color: var(--dark-bg-color);
+    color: white;
+}
+
+.user-table.dark thead th{
+    color: var(--white);
+    background-color: var(--dark-bg-color);
+    border-color: var(--Primary-color);
+}
+
+.user-table.dark tbody td{
+    color: var(--white);
+    background-color: var(--dark-bg-color);
+    border-color: var(--dark-bg-color);
+}
+
