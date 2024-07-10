@@ -216,7 +216,6 @@ export default function Home(){
           </div>
         </div>
       </div>
-<h1>test</h1>
       <div className="home-container__bottom">
         <div className={`home-container__bottom-right ${theme}`}> 
           <h2 className="home-title">لورم</h2>
